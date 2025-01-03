@@ -1,12 +1,12 @@
 def game(a):
-  n=int(input("Enter a number : "))
+  n=int(input("Enter a guess 🤔: "))
   if(a==n):
-    print("Your guess is correct")
+    print("Your guess is correct🎁")
   elif(a<n):
-    print("Try a small number")
+    print("Try a small number🔻")
     game(a)
   else:
-    print("Try a big number")
+    print("Try a big number🔺")
     game(a)
 import random
 a=random.randint(1,100)
